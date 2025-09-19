@@ -44,3 +44,27 @@ console.log(typeof bigNumber);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+let myName = "Aman Kumar";
+
+let anotherName = myName;
+anotherName = "Sahil Kumar";
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+  emailId : "amankumar@gmail.com",
+  upi : "2346@ybl",
+}
+
+let userTwo = userOne;
+
+userTwo.emailId = "SahilKumar@gmail.com";
+
+console.log(userOne.emailId);
+console.log(userTwo.emailId);
+
